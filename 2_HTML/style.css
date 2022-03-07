@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/pb.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 180px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+.nav-links ul li a{
+   color: #eacab6;
+   text-decoration: none;
+   font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #2ec4b6;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+.nav-links ul li:hover::after{
+   width: 100%;
+}
+.text-box{
+    width: 90%;
+     color: #fff;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ }
+.text-box h1{
+    font-size: 70px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+/*------- menu-----*/
+.menu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-col img{
+    width: 280px;
+}
+.menu-col1 img{
+    padding-bottom: 30px;
+    width: 280px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20%;
+}
+.hero-btn:hover{
+    border: 1px solid #2ec4b6;
+    background: #2ec4b6;
+    transition: 1s;
+}
+/*------- pedidos-----*/
+.pedidos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+.pedidos img{
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+/*-------Contacto--------*/
+.contacto{
+    background-color: #eacab6;
+}
+h4{
+    color: #195f73;
+    font-size: 25px;
+}
+li{
+    color: #195f73; 
+}
+.contacto-col-3{
+    background-color: #eacab6;
+}
+
+/*----lnkpedidos---*/
+.header1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #195f73;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*header*/
+.text-box1{
+    width: 90%;
+     color: #fff;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-30%);
+     text-align: center;
+ }
+.text-box1 h1{
+    font-size: 70px;
+}
+.text-box1 p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.seleccion h2{
+    font-size: 10px;
+    position: relative;
+     top: 50%;
+     left: 50%;
+}
+
+.seleccion{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #195f73;
+}
+/*prueba*/
+.dropdown{
+    padding: 8px 12px;
+
+    background-color: #195f73;
+}
+h1{
+    color: #eacab6;
+}
+h3{
+    color: #eacab6;
+}
+p{
+    color: #eacab6;
+}
+body{
+
+    text-align: center;
+}
+.row1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.formu{
+    background-color: #195f73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin-top: 100px;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 150px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #eacab6;
+    color: #eacab6;
+    background: transparent;
+    font-size: 15px;
+}

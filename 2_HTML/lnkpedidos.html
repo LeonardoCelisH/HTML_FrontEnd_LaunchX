@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentro de Pasteles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header1">
+        <nav>
+            <a href="EncuentroDePasteles.html"><img src="img/logof.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="EncuentroDePasteles.html">PRINCIPAL</a></li>
+                    <li><a href="EncuentroDePasteles.html">MENÚ</a></li>
+                    <li><a href="EncuentroDePasteles.html">COMPRAR</a></li>
+                    <li><a href="EncuentroDePasteles.html">PEDIDOS</a></li>
+                    <li><a href="EncuentroDePasteles.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+    <div class="text-box1">
+        <h1>Pide tu pastel justo como se te antoja</h1>
+        <p>Seleccione las opciones que le gustaría que su pastel contenga</p>     
+        
+    </div>
+    </section>
+<!----caja seleccion----->
+    </section>
+    <section class="dropdown">
+        <body>
+            <div class="row1">
+            <h3>Sabor de pan</h3>
+            <select name="Base" id="bs">
+                <option disabled selected>Selecciona una opcion</option>
+                <option>$250 Chocolate</option>
+                <option>$250 Almendrado</option>
+                <option>$250 Avellanas</option>
+                <option>$250 Café</option>
+                <option>$250 Vainilla</option>
+            </select>
+            
+            <h3>Decoración base</h3>
+            <select name="dec" id="dc">
+                <option disabled selected>Selecciona una opcion</option>
+                <option>$100 Crema de avellana</option>
+                <option>$100 chocolate</option>
+                <option>$100 Mermelada de fresas</option>
+                <option>$100 Café con chocolate</option>
+                <option>$100 Vainilla</option>
+                
+            </select>
+
+            <h3>Detalles</h3>
+            <select name="det" id="dt">
+                <option disabled selected>Selecciona una opcion</option>
+                <option>$10 Chispas de chocolate</option>
+                <option>$10 Cerezas</option>
+                <option>$10 Avellanas</option>
+                <option>$10 Granos de café</option>
+            </div>    
+            </select>
+        </body>
+    </section>
+    <section>
+        <body>
+            <div class="formu">
+                <form>
+                    <div class="iput-group">
+                        <input type="text" id="nombre" required>
+                        <label for="nombre">Tú nombre</label>
+                    </div>
+                    <div class="iput-group">
+                        <input type="text" id="numero" required>
+                        <label for="numero">Tel. Celular</label>
+                    </div>                   
+                    <div class="iput-group">
+                        <input type="text" id="email" required>
+                        <label for="email">Email</label>
+                    </div>                    
+                    <div class="iput-group">
+                        <textarea id="message" rows="8"></textarea>
+                        <label for="desc">Descripción extra</label>
+                    </div>
+                    <button type="submit">Realizar pedido</button>
+                    
+                </form>
+
+            </div>
+        </body>
+    </section>
+    </body>
+    </html>
